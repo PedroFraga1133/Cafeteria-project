@@ -1,0 +1,261 @@
+{
+
+
+
+    "burgers": [
+      {
+        "id": 1,
+        "snack": "burger",
+        "name": "Mega",
+        "description": "O artesanal tamanho família recheado com três carnes suculentas, queijo e bacon.",
+        "price": 25.5,
+        "image": "https://img.freepik.com/fotos-premium/burger-costeleta-dupla-queijo-cheddar-duplo-bacon-cebola-frita-picles-molho-e-pao-artesanal_524291-99.jpg"
+      },
+      {
+        "id": 2,
+        "snack": "burger",
+        "name": "Extra Bacon",
+        "description": "Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado e ainda queijo e carne.",
+        "price": 23.5,
+        "image": "https://i.pinimg.com/736x/65/19/ab/6519ab079930e427d9e0970d2c1faa7d.jpg"
+      },
+      {
+        "id": 3,
+        "snack": "burger",
+        "name": "Extra cheddar",
+        "description": "O simples também é delicioso, principalmente se envolver nossa carne artesanal e queijo.",
+        "price": 23.5,
+        "image": "https://img.freepik.com/fotos-gratis/hamburguer-de-vista-frontal-em-um-carrinho_141793-15542.jpg"
+      },
+      {
+        "id": 4,
+        "snack": "burger",
+        "name": "Big Carne",
+        "description": "Uma carne artesanal de primeira qualidade com 4cm de altura e uma salada completa com alface, cebola, tomate e outros.",
+        "price": 18.0,
+        "image": "https://i.imgur.com/bF8EdBb.jpg"
+      },
+      {
+        "id": 5,
+        "snack": "burger",
+        "name": "Carne dupla",
+        "description": "Já pensou em comer aquele sanduíche com carne dupla e saborosa, recheada com queijo, molho e salada? Então você pensou exatamente nesse hambúrguer.",
+        "price": 20,
+        "image": "https://i.imgur.com/fdEY2kY.jpg"
+      }
+    ],
+
+    
+  
+    "acomps": [
+      {
+        "id": 1,
+        "snack": "acomps",
+        "name": "Batata Simples",
+        "description": "acomps recheada com calabresa, cebola, mussarela, orégano e azeitona, tendo uma borda recheada com catupiry.",
+        "price": 8.5,
+        "image": "https://i.pinimg.com/564x/c1/cd/56/c1cd56e0c1d7fb429db1dfc218bdb2ef.jpg"
+      },
+      {
+        "id": 2,
+        "snack": "acomps",
+        "name": "Batata Turbo",
+        "description": "acomps recheada com presunto, mussarela, ovo, cebola, azeitona, orégano, tomate e molho de tomate, tendo uma borda recheada com catupiry.",
+        "price": 12.5,
+        "image": "https://i.pinimg.com/564x/41/1b/1e/411b1e1f671bcd4a86b61a8472aef1d4.jpg"
+      },
+      {
+        "id": 3,
+        "snack": "acomps",
+        "name": "Onion Rings",
+        "description": "acomps recheada com frango, catupiry e brócolis, tendo uma borda recheada com catupiry.",
+        "price": 11,
+        "image": "https://i.pinimg.com/564x/a1/4c/06/a14c067f01990ae1fba2679bdbc55905.jpg"
+      },
+      {
+        "id": 4,
+        "snack": "acomps",
+        "name": "Napolitana",
+        "description": "acomps recheada com queijo, mussarela, tomate e couve, tendo uma borda recheada com catupiry.",
+        "price": 30,
+        "image": "https://i.imgur.com/u3DfvCE.jpg"
+      },
+      {
+        "id": 5,
+        "snack": "acomps",
+        "name": "Mussarela",
+        "description": "acomps recheada com mussarela, tendo uma borda recheada com catupiry. ",
+        "price": 20.5,
+        "image": "https://i.imgur.com/kPNXpa0.jpg"
+      },
+      {
+        "id": 6,
+        "snack": "acomps",
+        "name": "Marguerita",
+        "description": "acomps recheada com calabresa, mussarela, cebola, azeitona e orégano, tendo uma borda recheada com catupiry.",
+        "price": 25.5,
+        "image": "https://i.imgur.com/AsEfsZN.jpg"
+      },
+      {
+        "id": 7,
+        "snack": "acomps",
+        "name": "Brigadeiro com Morango",
+        "description": "acomps doce recheada com brigadeiro e morango.",
+        "price": 35.0,
+        "image": "https://i.imgur.com/43yC2Ap.jpg"
+      },
+      {
+        "id": 8,
+        "snack": "acomps",
+        "name": "Banana",
+        "description": "acomps doce recheada com banana e leite condensado.",
+        "price": 33.5,
+        "image": "https://i.imgur.com/Pcrgg1P.jpg"
+      },
+      {
+        "id": 9,
+        "snack": "acomps",
+        "name": "Chocolate",
+        "description": "acomps doce recheada com chocolate e bolinhas de chocolate.",
+        "price": 30,
+        "image": "https://i.imgur.com/RahAKkH.jpg"
+      }
+    ],
+
+
+   
+  
+    "combos": [
+        {
+          "id": 1,
+          "snack": "combos",
+          "name": "Casquinha",
+          "description": "A casquinha crocante e saborosa que nossos clientes amam.",
+          "price": 4.5,
+          "image": "https://i.imgur.com/YGmeoCm.jpg"
+        },
+        {
+          "id": 2,
+          "snack": "combos",
+          "name": "Chocolate com granulado",
+          "description": "Sorvete de chocolate com granulados em chocolate para você se deliciar.",
+          "price": 6,
+          "image": "https://i.imgur.com/osAHOLe.jpg"
+        },
+        {
+          "id": 3,
+          "snack": "combos",
+          "name": "Flocos",
+          "description": "O tradicional flocos vem com cobertura em chocolate para adocicar seu dia.",
+          "price": 7,
+          "image": "https://i.imgur.com/qgnFLiy.jpg"
+        },
+        {
+          "id": 4,
+          "snack": "combos",
+          "name": "Creme",
+          "description": "O simples sorvete de creme com um gosto irresistível.",
+          "price": 6.5,
+          "image": "https://i.imgur.com/dFLysrT.jpg"
+        },
+        {
+          "id": 5,
+          "snack": "combos",
+          "name": "Morango",
+          "description": "O clássico sorvete de morango que deixe tudo mais leve.",
+          "price": 10,
+          "image": "https://i.imgur.com/0TWnEI7.jpg"
+        }
+      ],
+
+
+    
+  
+    "drinks": [
+      {
+        "id": 1,
+        "snack": "drink",
+        "name": "Coca-Cola 2L",
+        "description": "A tradicional Coca-Cola que a família brasileira adora.",
+        "price": 12,
+        "image": "https://i.imgur.com/Lg3aKhf.jpg"
+      },
+      {
+        "id": 2,
+        "snack": "drink",
+        "name": "Guaraná Antarctica",
+        "description": "O irresistível e saboroso Guaraná Antarctica em sua versão de latinha.",
+        "price": 6.5,
+        "image": "https://i.imgur.com/hOBrOIm.jpg"
+      },
+      {
+        "id": 3,
+        "snack": "drink",
+        "name": "Suco de Abacaxi",
+        "description": "Suco natural de abacaxi com leves incrementos de algumas hortaliças para fortificar sua saúde.",
+        "price": 8,
+        "image": "https://i.imgur.com/VV9qTMh.jpg"
+      },
+      {
+        "id": 4,
+        "snack": "drink",
+        "name": "Suco de Laranja",
+        "description": "Suco natural de laranja para você que é amante dessa fruta.",
+        "price": 8,
+        "image": "https://i.imgur.com/2Lf2gHy.jpg"
+      },
+      {
+        "id": 5,
+        "snack": "drink",
+        "name": "Milk Sheke",
+        "description": "Suco natural de laranja para você que é amante dessa fruta.",
+        "price": 10,
+        "image": "https://blog.biglar.com.br/wp-content/uploads/2022/08/iStock-1308045723.jpeg"
+      }
+    ],
+
+    
+  
+    "ice-creams": [
+      {
+        "id": 1,
+        "snack": "ice-cream",
+        "name": "Casquinha",
+        "description": "A casquinha crocante e saborosa que nossos clientes amam.",
+        "price": 4.5,
+        "image": "https://i.imgur.com/YGmeoCm.jpg"
+      },
+      {
+        "id": 2,
+        "snack": "ice-cream",
+        "name": "Chocolate com granulado",
+        "description": "Sorvete de chocolate com granulados em chocolate para você se deliciar.",
+        "price": 6,
+        "image": "https://i.imgur.com/osAHOLe.jpg"
+      },
+      {
+        "id": 3,
+        "snack": "ice-cream",
+        "name": "Flocos",
+        "description": "O tradicional flocos vem com cobertura em chocolate para adocicar seu dia.",
+        "price": 7,
+        "image": "https://i.imgur.com/qgnFLiy.jpg"
+      },
+      {
+        "id": 4,
+        "snack": "ice-cream",
+        "name": "Creme",
+        "description": "O simples sorvete de creme com um gosto irresistível.",
+        "price": 6.5,
+        "image": "https://i.imgur.com/dFLysrT.jpg"
+      },
+      {
+        "id": 5,
+        "snack": "ice-cream",
+        "name": "Morango",
+        "description": "O clássico sorvete de morango que deixe tudo mais leve.",
+        "price": 10,
+        "image": "https://i.imgur.com/0TWnEI7.jpg"
+      }
+    ]
+  }

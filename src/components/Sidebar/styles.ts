@@ -62,6 +62,7 @@ export const Container = styled.aside<ContainerProps>`
                     height: 4rem;
                     transition: fill 0.3s;
                 }
+                
 
                 span {
                     font-size: 1rem;
@@ -133,6 +134,8 @@ export const Container = styled.aside<ContainerProps>`
                    span {
                        display: none;
                    }
+
+                   
    
                    &.active {
                        &::after {

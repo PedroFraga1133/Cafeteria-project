@@ -6,10 +6,12 @@ import { Container } from "./styles"
 
 
 
-import {ReactComponent as BurgerIcon } from '../../assets/burger.svg'
-import {ReactComponent as PizzaIcon } from '../../assets/pizza.svg'
-import {ReactComponent as SodaPopIcon } from '../../assets/soda.svg'
+import {ReactComponent as BurgerIcon } from '../../assets/burger1.svg'
+import {ReactComponent as AcompsIcon } from '../../assets/fritas.svg'
+import {ReactComponent as SodaPopIcon } from '../../assets/mike.svg'
 import {ReactComponent as IceCreamIcon } from '../../assets/ice-cream.svg'
+import {ReactComponent as Combos} from '../../assets/combos.svg'
+
 
 import menuImg from '../../assets/menu.svg'
 export function Sidebar() {
@@ -31,23 +33,30 @@ export function Sidebar() {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="pizzas">
-                        <PizzaIcon />
-                        <span>Pizzas</span>
+                    <NavLink to="acomps">
+                        <AcompsIcon />
+                        <span>Acomps</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="combos" >
+                        <Combos />
+                        <span>Combos</span>
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to="drinks">
                         <SodaPopIcon />
-                        <span>Drinks</span>
+                        <span>Bebidas</span>
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to="ice-creams" >
                         <IceCreamIcon />
-                        <span>Desserts</span>
+                        <span>Sobremesa</span>
                     </NavLink>
                 </li>
+                
             </ul>
         </nav>
         </ Container>
