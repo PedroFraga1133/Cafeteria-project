@@ -1,18 +1,16 @@
-import { useState, useEffect, useContext } from "react"
+import { useSnack } from "../../../hooks/useSnack"
+
+
 
 import { Head } from "../../../components/Head"
 import { Snacks } from "../../../components/Snacks"
 import { SnackTitle } from "../../../components/SnackTitle"
 
-import { SnackData } from "../../../interfaces/SnackData"
-
-import { getIceCreams } from "../../../services/api"
-import { SnackContext } from "../../../App"
 
 
 export default function IceCreams() {
     
-    const { iceCreams } = useContext(SnackContext)
+    const { iceCreams } = useSnack()
     
     return (
         <> 

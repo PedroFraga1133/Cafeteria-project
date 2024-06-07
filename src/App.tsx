@@ -1,80 +1,40 @@
-import { createContext, useState, useEffect } from 'react'
 
 
 import { BrowserRouter } from 'react-router-dom'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
+
+import { CartProvider } from './contexts/CartContext'
+import { SnackProvider } from './contexts/SnackContext'
 import { AppRoutes } from './routes'
 
-import { Theme } from './styles/Theme'
-import { GlobalStyle } from './styles/global'
 import { Normalize } from 'styled-normalize'
-
-import { SnackData } from './interfaces/SnackData'
-import { getAcomps, getBurgers, getCombos, getDrinks, getIceCreams } from './services/api'
-import { request } from 'http'
-
-interface SnackContextProps {
-    burgers: SnackData[]
-    acomps: SnackData[]
-    combos: SnackData[]
-    drinks: SnackData[]
-    iceCreams: SnackData[]
-}
+import { GlobalStyle } from './styles/global'
+import { Theme } from './styles/Theme'
 
 
-export const SnackContext = createContext({} as SnackContextProps)
+
+
+
+
 
 
 
 export default function App() {
-  const [burgers, setBurgers] = useState<SnackData[]>([])
-  const [acomps, setAcomps] = useState<SnackData[]>([])
-  const [combos, setCombos] = useState<SnackData[]>([])
-  const [drinks, setDrinks] = useState<SnackData[]>([])
-  const [iceCreams, setIceCreams] = useState<SnackData[]>([])
 
-   useEffect(() => {
-     ;(async () => {
-
-        try {
-
-        
-
-        const burgerRequest = await getBurgers()
-        const acompsRequest = await getAcomps()
-        const combosRequest = await getCombos()
-        const drinksRequest = await getDrinks()
-        const iceCreamsRequest = await getIceCreams()
-
-        const requests = [burgerRequest, acompsRequest, combosRequest, drinksRequest, iceCreamsRequest]
-
-        const [ 
-          {data: burgerResponse },
-          {data: acompsResponse },
-          {data: combosResponse },
-          {data: drinksResponse},
-          {data: iceCreamsResponse }, 
-        ] = await Promise.all(requests)
-        
-        setBurgers(burgerResponse)
-        setAcomps(acompsResponse)
-        setCombos(combosResponse)
-        setDrinks(drinksResponse)
-        setIceCreams(iceCreamsResponse)
-      } catch (error) {
-          console.error(error)
-      }
-    })()
-   }, [])
 
   return (
     <BrowserRouter>
       <Theme>
-        <SnackContext.Provider value={{ burgers, acomps, combos, drinks, iceCreams }}>
+        <SnackProvider>
+          <CartProvider>
         <AppRoutes />
+        <ToastContainer autoClose={2000}/>
         <GlobalStyle />
         <Normalize />
-        </SnackContext.Provider>
+        </CartProvider>
+        </SnackProvider>
       </Theme>
     </BrowserRouter>
   )

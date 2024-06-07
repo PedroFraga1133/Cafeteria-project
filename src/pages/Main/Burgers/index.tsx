@@ -1,12 +1,10 @@
-import { useState, useEffect, useContext } from "react"
-
-
+import { useSnack } from "../../../hooks/useSnack"
 
 
 import { Head } from "../../../components/Head"
 import { SnackTitle } from "../../../components/SnackTitle"
 import { Snacks } from "../../../components/Snacks"
-import { SnackContext } from "../../../App"
+
 
 
 
@@ -16,7 +14,7 @@ export default function Burgers() {
     
   
 
-   const { burgers } = useContext(SnackContext)
+   const { burgers } = useSnack()
 
    
     
